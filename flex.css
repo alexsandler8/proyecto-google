@@ -1,0 +1,58 @@
+body{
+  font-family: sans-serif;
+}
+
+.der{
+  float: right;
+  text-decoration:none;
+  margin-right: 5px;
+}
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+.enmedio{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-end;
+  margin-top: 200px;
+}
+#barra{
+  width: 630px;
+  height: 30px;
+}
+.izq{
+  float: left;
+  text-decoration:none;
+  margin-right: 3px;
+}
+
+footer{
+  display: block;
+  clear: both;
+  background-color: #f2f2f2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+}
+.botones{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  clear: both;
+
+}
+input[type="button"]{
+  background-color:  #f2f2f2;
+  padding: 10px 100px;
+  font-family: sans-serif;
+  color: #757575;
+  font-size: 13px;
+
+}
